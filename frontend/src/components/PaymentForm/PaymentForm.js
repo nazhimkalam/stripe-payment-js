@@ -29,6 +29,8 @@ const PaymentForm = () => {
   const elements = useElements();
 
   const handleSubmit = async (e) => {
+    const amountInDollars = 50;
+    const finalTotal = amountInDollars * 100;
     e.preventDefault();
     const { error, paymentMethod } = await stripe.createPaymentMethod({
       type: "card",
@@ -39,7 +41,7 @@ const PaymentForm = () => {
       try {
         const { id } = paymentMethod;
         const response = await axios.post("http://localhost:4000/payment", {
-          amount: 1000,
+          amount: finalTotal,
           id,
         });
 
