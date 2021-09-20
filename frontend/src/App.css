@@ -2,7 +2,7 @@
 	margin: 0 15px 20px;
 	padding: 0;
 	border-style: none;
-	background-color: #7795f8;
+	background-color: #426eff;
 	will-change: opacity, transform;
 	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #829fff;
 	border-radius: 4px;
@@ -14,7 +14,6 @@
 	-ms-flex-align: center;
 	align-items: center;
 	margin-left: 15px;
-	border-top: 1px solid #819efc;
 }
 
 .StripeElement--webkit-autofill {
@@ -32,8 +31,8 @@ button {
 	width: calc(100% - 30px);
 	height: 40px;
 	margin: 40px 15px 0;
-	background-color: #f6a4eb;
-	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ffb9f6;
+	background-color: #49b401;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #b9ffc8;
 	border-radius: 4px;
 	color: #fff;
 	font-weight: 600;
@@ -44,8 +43,8 @@ button {
 }
 
 button:active {
-	background-color: #d782d9;
-	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #e298d8;
+	background-color: #a9d982;
+	box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08), inset 0 1px 0 #c6e298;
 	transform: scale(0.99);
 }
 

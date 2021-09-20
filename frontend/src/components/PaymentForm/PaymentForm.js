@@ -17,7 +17,7 @@ const CARD_OPTIONS = {
       "::placeholder": { color: "#87bbfd" },
     },
     invalid: {
-      iconColor: "#ffc7ee",
+      iconColor: "#fa0000",
       color: "#ffc7ee",
     },
   },
@@ -65,6 +65,7 @@ const PaymentForm = () => {
             </div>
           </fieldset>
           <button>Pay</button>
+          <h2>$65,069.00</h2>
         </form>
       ) : (
         <div>
@@ -77,4 +78,10 @@ const PaymentForm = () => {
 
 export default PaymentForm;
 
-const Container = styled.div``;
+const Container = styled.div`
+  h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+`;
