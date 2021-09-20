@@ -29,7 +29,7 @@ const PaymentForm = () => {
   const elements = useElements();
 
   const handleSubmit = async (e) => {
-    const amountInDollars = 50;
+    const amountInDollars = 4564;
     const finalTotal = amountInDollars * 100;
     e.preventDefault();
     const { error, paymentMethod } = await stripe.createPaymentMethod({
