@@ -1,2 +1,1 @@
-"# stripe-payment-js" 
-"# stripe-payment-js" 
+# Stripe payment gateway with react and node js
